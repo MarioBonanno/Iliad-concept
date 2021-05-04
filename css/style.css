@@ -1,0 +1,3656 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  background-color: #F9F9F9;
+}
+
+.row {
+  margin: 0px;
+}
+
+.container-fluid {
+  padding: 0px;
+  margin: 0px auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 1400px;
+  overflow: hidden;
+}
+
+.cicle {
+  background: #FAFAFA;
+  border: 5px solid #FAFAFA;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0px 2px 4px #E6E6E6;
+          box-shadow: 0px 2px 4px #E6E6E6;
+  width: 80px;
+  height: 80px;
+  border-radius: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 10px;
+}
+
+.offerta-dettaglio {
+  width: 357px;
+  height: 191px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.2)), to(rgba(255, 249, 249, 0)));
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 249, 249, 0) 100%);
+  border-radius: 2px;
+  margin-top: 20px;
+  padding-top: 30px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Lato', sans-serif;
+}
+
+.header {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header .nav {
+  padding: 0px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+  min-height: 50px;
+  -webkit-transition: height 0.6s ease-in;
+  transition: height 0.6s ease-in;
+}
+
+.header .nav .nav-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90%;
+  list-style: none;
+  margin-left: 20px;
+}
+
+.header .nav .nav-link li {
+  margin-left: 40px;
+}
+
+.header .nav .nav-link li a {
+  text-decoration: none;
+  color: #5A5A5A;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+}
+
+.header .nav .nav-link li a:hover {
+  color: #C12026;
+  border-bottom: 2px solid #C12026;
+  padding: 0px;
+}
+
+.header .nav .nav-link li .active {
+  color: #C12026;
+  border-bottom: 2px solid #C12026;
+  padding: 0px;
+}
+
+.header .nav .nav-link li:first-child {
+  margin-left: 0px;
+}
+
+.header .nav .buger {
+  display: none;
+}
+
+.header .nav .buger div {
+  width: 25px;
+  height: 2px;
+  border-radius: 3px;
+  background-color: #C12026;
+  margin-top: 5px;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.header .nav .buger div:last-child {
+  width: 15px;
+}
+
+.header .nav .area {
+  margin-left: 20px;
+  width: 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.header .nav .area a {
+  margin-left: 20px;
+}
+
+.header .cover {
+  width: 100%;
+  background-image: url(../img/Cover_home.jpg);
+  background-size: cover;
+  height: 450px;
+}
+
+.header .cover .cover-text {
+  margin-top: 110px;
+  margin-bottom: 0px;
+  height: 152px;
+}
+
+.header .cover .cover-text .cover-text-title {
+  font-size: 4rem;
+  font-family: "Lato", sans-serif;
+  color: white;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.header .cover .cover-text .cover-text-descr {
+  margin-bottom: 8px;
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-size: 2.4rem;
+}
+
+.header .cover .cover-motto {
+  margin-top: -70px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 200px;
+}
+
+.header .cover .cover-motto .cover-motto-text {
+  font-family: "Lato", sans-serif;
+  font-size: 2.4rem;
+  color: white;
+}
+
+/* Offerte */
+.offerte {
+  width: 100%;
+  margin-top: 60px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  padding: 0px;
+}
+
+.offerte .secttion-title {
+  font-family: "Lato", sans-serif;
+  font-size: 4rem;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+.offerte .offerta {
+  position: relative;
+  padding: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 90%;
+  height: auto;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.offerte .offerta .offerta-base {
+  width: 587px;
+  height: 430px;
+  background-color: #F3F3F3;
+  padding-right: 30px;
+}
+
+.offerte .offerta .offerta-dettaglio {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 438px;
+  height: 342px;
+  background-image: url(../img/offerta_70.jpg);
+  background-size: cover;
+  left: 18%;
+  -webkit-filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.25));
+          filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.offerte .offerta .offerta-dettaglio .offerta-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.offerte .offerta .offerta-dettaglio .offerta-title h2 {
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-size: 4rem;
+  font-weight: 500;
+  margin-right: 5px;
+}
+
+.offerte .offerta .offerta-dettaglio .offerta-title P {
+  font-family: "Lato", sans-serif;
+  font-size: 3rem;
+  font-weight: 500;
+  color: white;
+  margin-top: 10px;
+}
+
+.offerte .offerta .offerta-dettaglio .dettaglio-text {
+  width: 357px;
+  height: 191px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.2)), to(rgba(255, 249, 249, 0)));
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 249, 249, 0) 100%);
+  border-radius: 2px;
+  margin-top: 20px;
+  padding-top: 30px;
+}
+
+.offerte .offerta .offerta-dettaglio .dettaglio-text .dettaglio-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  color: white;
+  padding: 0 10px;
+}
+
+.offerte .offerta .offerta-dettaglio .dettaglio-text .dettaglio-title p {
+  font-family: "Lato", sans-serif;
+  font-size: 2.2rem;
+}
+
+.offerte .offerta .offerta-dettaglio .dettaglio-text .text-descr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 0 10px;
+}
+
+.offerte .offerta .offerta-dettaglio .dettaglio-text .text-descr .giga {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.offerte .offerta .offerta-dettaglio .dettaglio-text .text-descr .giga h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 4rem;
+  color: white;
+}
+
+.offerte .offerta .offerta-dettaglio .dettaglio-text .text-descr .giga P {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 3rem;
+  padding-top: 10px;
+  color: white;
+}
+
+.offerte .offerta .offerta-dettaglio .dettaglio-text .text-descr .ilimitati {
+  height: 32.17px;
+  margin-top: 10px;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+  padding: 0 10px;
+  border-radius: 1px;
+}
+
+.offerte .offerta .offerta-dettaglio .dettaglio-text .text-descr .ilimitati h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 3rem;
+  color: white;
+}
+
+.offerte .offerta .offerta-dettaglio .dettaglio-text .text-descr .prezzo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+}
+
+.offerte .offerta .offerta-dettaglio .dettaglio-text .text-descr .prezzo h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 4rem;
+}
+
+.offerte .offerta .offerta-dettaglio .dettaglio-text .text-descr .prezzo P {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 3rem;
+}
+
+.offerte .offerta .offerta-dettaglio .dettaglio-text .incluso-5g {
+  font-family: "Lato", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 500;
+  text-align: center;
+  color: white;
+}
+
+.offerte .offerta .offerta-dettaglio .dettaglio-text .scopri {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 10px;
+}
+
+.offerte .offerta .offerta-dettaglio .dettaglio-text .scopri a {
+  color: black;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  text-decoration: none;
+  background-color: white;
+  padding: 4px 40px 4px 40px;
+  border-radius: 2px;
+  height: 30px;
+  text-align: center;
+}
+
+.offerte .offerta .offerta-dettaglio .dettaglio-text .scopri p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.offerte .offerta .offerta-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 296px;
+  max-width: 30%;
+}
+
+.offerte .offerta .offerta-icon .icon-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 40px;
+  width: auto;
+}
+
+.offerte .offerta .offerta-icon .icon-1 .internet,
+.offerte .offerta .offerta-icon .icon-1 .mobili {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: auto;
+  text-align: center;
+}
+
+.offerte .offerta .offerta-icon .icon-1 .internet p,
+.offerte .offerta .offerta-icon .icon-1 .mobili p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+}
+
+.offerte .offerta .offerta-icon .icon-1 .internet .cicle,
+.offerte .offerta .offerta-icon .icon-1 .mobili .cicle {
+  background: #FAFAFA;
+  border: 5px solid #FAFAFA;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0px 2px 4px #E6E6E6;
+          box-shadow: 0px 2px 4px #E6E6E6;
+  width: 80px;
+  height: 80px;
+  border-radius: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 10px;
+}
+
+.offerte .offerta .offerta-icon .icon-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.offerte .offerta .offerta-icon .icon-2 .europa,
+.offerte .offerta .offerta-icon .icon-2 .internazionale {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  width: auto;
+  text-align: center;
+}
+
+.offerte .offerta .offerta-icon .icon-2 .europa p,
+.offerte .offerta .offerta-icon .icon-2 .internazionale p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+}
+
+.offerte .offerta .offerta-icon .icon-2 .europa .cicle,
+.offerte .offerta .offerta-icon .icon-2 .internazionale .cicle {
+  background: #FAFAFA;
+  border: 5px solid #FAFAFA;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0px 2px 4px #E6E6E6;
+          box-shadow: 0px 2px 4px #E6E6E6;
+  width: 80px;
+  height: 80px;
+  border-radius: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 10px;
+}
+
+.offerte .offerte-50 {
+  padding-right: 0px;
+  padding-left: 154.5px;
+  margin-top: 60px;
+}
+
+.offerte .offerte-50 .offerta-base {
+  width: 587px;
+  height: 430px;
+  background-color: #F3F3F3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px;
+}
+
+.offerte .offerte-50 .offerta-dettaglio {
+  background-image: url(../img/offerta_50.jpg);
+  background-size: cover;
+  -webkit-transform: translate(-90px);
+          transform: translate(-90px);
+  -webkit-filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.25));
+          filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+/* offerta 50  */
+.offerte-50 {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 100%;
+  margin-top: 60px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  padding: 0px;
+}
+
+.offerte-50 .offerta {
+  position: relative;
+  padding: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 90%;
+  height: auto;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.offerte-50 .offerta .offerta-base {
+  width: 587px;
+  height: 430px;
+  background-color: #F3F3F3;
+  padding-right: 30px;
+}
+
+.offerte-50 .offerta .offerta-dettaglio {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 438px;
+  height: 342px;
+  background-image: url(../img/offerta_50.jpg);
+  background-size: cover;
+  right: 18%;
+  -webkit-filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.25));
+          filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.offerte-50 .offerta .offerta-dettaglio .offerta-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.offerte-50 .offerta .offerta-dettaglio .offerta-title h2 {
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-size: 4rem;
+  font-weight: 500;
+  margin-right: 5px;
+}
+
+.offerte-50 .offerta .offerta-dettaglio .offerta-title P {
+  font-family: "Lato", sans-serif;
+  font-size: 3rem;
+  font-weight: 500;
+  color: white;
+  margin-top: 10px;
+}
+
+.offerte-50 .offerta .offerta-dettaglio .dettaglio-text {
+  width: 357px;
+  height: 191px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.2)), to(rgba(255, 249, 249, 0)));
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 249, 249, 0) 100%);
+  border-radius: 2px;
+  margin-top: 20px;
+  padding-top: 30px;
+}
+
+.offerte-50 .offerta .offerta-dettaglio .dettaglio-text .dettaglio-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  color: white;
+  padding: 0 10px;
+}
+
+.offerte-50 .offerta .offerta-dettaglio .dettaglio-text .dettaglio-title p {
+  font-family: "Lato", sans-serif;
+  font-size: 2.2rem;
+}
+
+.offerte-50 .offerta .offerta-dettaglio .dettaglio-text .text-descr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 0 10px;
+}
+
+.offerte-50 .offerta .offerta-dettaglio .dettaglio-text .text-descr .giga {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.offerte-50 .offerta .offerta-dettaglio .dettaglio-text .text-descr .giga h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 4rem;
+  color: white;
+}
+
+.offerte-50 .offerta .offerta-dettaglio .dettaglio-text .text-descr .giga P {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 3rem;
+  padding-top: 10px;
+  color: white;
+}
+
+.offerte-50 .offerta .offerta-dettaglio .dettaglio-text .text-descr .ilimitati {
+  height: 32.17px;
+  margin-top: 10px;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+  padding: 0 10px;
+  border-radius: 1px;
+}
+
+.offerte-50 .offerta .offerta-dettaglio .dettaglio-text .text-descr .ilimitati h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 3rem;
+  color: white;
+}
+
+.offerte-50 .offerta .offerta-dettaglio .dettaglio-text .text-descr .prezzo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+}
+
+.offerte-50 .offerta .offerta-dettaglio .dettaglio-text .text-descr .prezzo h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 4rem;
+}
+
+.offerte-50 .offerta .offerta-dettaglio .dettaglio-text .text-descr .prezzo P {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 3rem;
+}
+
+.offerte-50 .offerta .offerta-dettaglio .dettaglio-text .incluso-5g {
+  font-family: "Lato", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 500;
+  text-align: center;
+  color: white;
+}
+
+.offerte-50 .offerta .offerta-dettaglio .dettaglio-text .scopri {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 10px;
+}
+
+.offerte-50 .offerta .offerta-dettaglio .dettaglio-text .scopri a {
+  color: black;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  text-decoration: none;
+  background-color: white;
+  padding: 4px 40px 4px 40px;
+  border-radius: 2px;
+  height: 30px;
+  text-align: center;
+}
+
+.offerte-50 .offerta .offerta-dettaglio .dettaglio-text .scopri p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.offerte-50 .offerta .offerta-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 296px;
+  max-width: 30%;
+}
+
+.offerte-50 .offerta .offerta-icon .icon-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 40px;
+  width: auto;
+}
+
+.offerte-50 .offerta .offerta-icon .icon-1 .internet,
+.offerte-50 .offerta .offerta-icon .icon-1 .mobili {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: auto;
+  text-align: center;
+}
+
+.offerte-50 .offerta .offerta-icon .icon-1 .internet p,
+.offerte-50 .offerta .offerta-icon .icon-1 .mobili p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+}
+
+.offerte-50 .offerta .offerta-icon .icon-1 .internet .cicle,
+.offerte-50 .offerta .offerta-icon .icon-1 .mobili .cicle {
+  background: #FAFAFA;
+  border: 5px solid #FAFAFA;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0px 2px 4px #E6E6E6;
+          box-shadow: 0px 2px 4px #E6E6E6;
+  width: 80px;
+  height: 80px;
+  border-radius: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 10px;
+}
+
+.offerte-50 .offerta .offerta-icon .icon-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.offerte-50 .offerta .offerta-icon .icon-2 .europa,
+.offerte-50 .offerta .offerta-icon .icon-2 .internazionale {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  width: auto;
+  text-align: center;
+}
+
+.offerte-50 .offerta .offerta-icon .icon-2 .europa p,
+.offerte-50 .offerta .offerta-icon .icon-2 .internazionale p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+}
+
+.offerte-50 .offerta .offerta-icon .icon-2 .europa .cicle,
+.offerte-50 .offerta .offerta-icon .icon-2 .internazionale .cicle {
+  background: #FAFAFA;
+  border: 5px solid #FAFAFA;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0px 2px 4px #E6E6E6;
+          box-shadow: 0px 2px 4px #E6E6E6;
+  width: 80px;
+  height: 80px;
+  border-radius: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 10px;
+}
+
+/* tette le offerte */
+.tutte-offerte {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 100px 0px;
+}
+
+.tutte-offerte .offerta {
+  padding: 0px;
+  margin: 0px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: auto;
+  position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tutte-offerte .offerta .base {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 1;
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  grid-row-end: 1;
+  width: 592px;
+  height: 492px;
+  background-color: #F3F3F3;
+  position: absolute;
+}
+
+.tutte-offerte .offerta .offerte-img {
+  width: 100%;
+  padding: 0px;
+  background-image: url(../img/tutte_offerter.jpg);
+  max-width: 820px;
+  height: 400px;
+  background-size: cover;
+  -webkit-filter: drop-shadow(-2px 4px 4px rgba(0, 0, 0, 0.25));
+          filter: drop-shadow(-2px 4px 4px rgba(0, 0, 0, 0.25));
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 20px;
+  margin-left: 114px;
+}
+
+.tutte-offerte .offerta .offerte-img .overlay .tittle-offerte {
+  font-family: "Lato", sans-serif;
+  font-size: 4rem;
+  font-weight: 400;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.tutte-offerte .offerta .offerte-img .overlay a {
+  color: black;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  text-decoration: none;
+  background-color: white;
+  width: 118px;
+  padding: 5px 7px;
+  border-radius: 2px;
+  height: 30px;
+  text-align: center;
+}
+
+/* offerta 40*/
+.offerte-40 {
+  width: 100%;
+  margin-top: 60px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  padding: 0px;
+}
+
+.offerte-40 .secttion-title {
+  font-family: "Lato", sans-serif;
+  font-size: 4rem;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+.offerte-40 .offerta {
+  position: relative;
+  padding: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 90%;
+  height: auto;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.offerte-40 .offerta .offerta-base {
+  width: 587px;
+  height: 430px;
+  background-color: #F3F3F3;
+  padding-right: 30px;
+}
+
+.offerte-40 .offerta .offerta-dettaglio {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 438px;
+  height: 342px;
+  background-image: url(../img/offerta_40.jpg);
+  background-size: cover;
+  left: 18%;
+  -webkit-filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.25));
+          filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.offerte-40 .offerta .offerta-dettaglio .offerta-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.offerte-40 .offerta .offerta-dettaglio .offerta-title h2 {
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-size: 4rem;
+  font-weight: 500;
+  margin-right: 5px;
+}
+
+.offerte-40 .offerta .offerta-dettaglio .offerta-title P {
+  font-family: "Lato", sans-serif;
+  font-size: 3rem;
+  font-weight: 500;
+  color: white;
+  margin-top: 10px;
+}
+
+.offerte-40 .offerta .offerta-dettaglio .dettaglio-text {
+  width: 357px;
+  height: 191px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.2)), to(rgba(255, 249, 249, 0)));
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 249, 249, 0) 100%);
+  border-radius: 2px;
+  margin-top: 20px;
+  padding-top: 30px;
+}
+
+.offerte-40 .offerta .offerta-dettaglio .dettaglio-text .dettaglio-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  color: white;
+  padding: 0 10px;
+}
+
+.offerte-40 .offerta .offerta-dettaglio .dettaglio-text .dettaglio-title p {
+  font-family: "Lato", sans-serif;
+  font-size: 2.2rem;
+}
+
+.offerte-40 .offerta .offerta-dettaglio .dettaglio-text .text-descr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 0 10px;
+}
+
+.offerte-40 .offerta .offerta-dettaglio .dettaglio-text .text-descr .giga {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.offerte-40 .offerta .offerta-dettaglio .dettaglio-text .text-descr .giga h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 4rem;
+  color: white;
+}
+
+.offerte-40 .offerta .offerta-dettaglio .dettaglio-text .text-descr .giga P {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 3rem;
+  padding-top: 10px;
+  color: white;
+}
+
+.offerte-40 .offerta .offerta-dettaglio .dettaglio-text .text-descr .ilimitati {
+  height: 32.17px;
+  margin-top: 10px;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+  padding: 0 10px;
+  border-radius: 1px;
+}
+
+.offerte-40 .offerta .offerta-dettaglio .dettaglio-text .text-descr .ilimitati h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 3rem;
+  color: white;
+}
+
+.offerte-40 .offerta .offerta-dettaglio .dettaglio-text .text-descr .prezzo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+}
+
+.offerte-40 .offerta .offerta-dettaglio .dettaglio-text .text-descr .prezzo h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 4rem;
+}
+
+.offerte-40 .offerta .offerta-dettaglio .dettaglio-text .text-descr .prezzo P {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 3rem;
+}
+
+.offerte-40 .offerta .offerta-dettaglio .dettaglio-text .incluso-5g {
+  font-family: "Lato", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 500;
+  text-align: center;
+  color: white;
+}
+
+.offerte-40 .offerta .offerta-dettaglio .dettaglio-text .scopri {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 10px;
+}
+
+.offerte-40 .offerta .offerta-dettaglio .dettaglio-text .scopri a {
+  color: black;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  text-decoration: none;
+  background-color: white;
+  padding: 4px 40px 4px 40px;
+  border-radius: 2px;
+  height: 30px;
+  text-align: center;
+}
+
+.offerte-40 .offerta .offerta-dettaglio .dettaglio-text .scopri p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.offerte-40 .offerta .offerta-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 296px;
+  max-width: 30%;
+}
+
+.offerte-40 .offerta .offerta-icon .icon-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 40px;
+  width: auto;
+}
+
+.offerte-40 .offerta .offerta-icon .icon-1 .internet,
+.offerte-40 .offerta .offerta-icon .icon-1 .mobili {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: auto;
+  text-align: center;
+}
+
+.offerte-40 .offerta .offerta-icon .icon-1 .internet p,
+.offerte-40 .offerta .offerta-icon .icon-1 .mobili p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+}
+
+.offerte-40 .offerta .offerta-icon .icon-1 .internet .cicle,
+.offerte-40 .offerta .offerta-icon .icon-1 .mobili .cicle {
+  background: #FAFAFA;
+  border: 5px solid #FAFAFA;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0px 2px 4px #E6E6E6;
+          box-shadow: 0px 2px 4px #E6E6E6;
+  width: 80px;
+  height: 80px;
+  border-radius: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 10px;
+}
+
+.offerte-40 .offerta .offerta-icon .icon-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.offerte-40 .offerta .offerta-icon .icon-2 .europa,
+.offerte-40 .offerta .offerta-icon .icon-2 .internazionale {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  width: auto;
+  text-align: center;
+}
+
+.offerte-40 .offerta .offerta-icon .icon-2 .europa p,
+.offerte-40 .offerta .offerta-icon .icon-2 .internazionale p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+}
+
+.offerte-40 .offerta .offerta-icon .icon-2 .europa .cicle,
+.offerte-40 .offerta .offerta-icon .icon-2 .internazionale .cicle {
+  background: #FAFAFA;
+  border: 5px solid #FAFAFA;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0px 2px 4px #E6E6E6;
+          box-shadow: 0px 2px 4px #E6E6E6;
+  width: 80px;
+  height: 80px;
+  border-radius: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 10px;
+}
+
+.offerte-40 .offerte-50 {
+  padding-right: 0px;
+  padding-left: 154.5px;
+  margin-top: 60px;
+}
+
+.offerte-40 .offerte-50 .offerta-base {
+  width: 587px;
+  height: 430px;
+  background-color: #F3F3F3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px;
+}
+
+.offerte-40 .offerte-50 .offerta-dettaglio {
+  background-image: url(../img/offerta_50.jpg);
+  background-size: cover;
+  -webkit-transform: translate(-90px);
+          transform: translate(-90px);
+  -webkit-filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.25));
+          filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+/* offerta voce */
+.offerte-voce {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 100%;
+  margin-top: 60px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  padding: 0px;
+  margin-bottom: 60px;
+}
+
+.offerte-voce .offerta {
+  position: relative;
+  padding: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 90%;
+  height: auto;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.offerte-voce .offerta .offerta-base {
+  width: 587px;
+  height: 430px;
+  background-color: #F3F3F3;
+  padding-right: 30px;
+}
+
+.offerte-voce .offerta .offerta-dettaglio {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 438px;
+  height: 342px;
+  background-image: url(../img/offerta_voce.jpg);
+  background-size: cover;
+  right: 18%;
+  -webkit-filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.25));
+          filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.offerte-voce .offerta .offerta-dettaglio .offerta-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.offerte-voce .offerta .offerta-dettaglio .offerta-title h2 {
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-size: 3.5rem;
+  font-weight: 500;
+  margin-right: 5px;
+}
+
+.offerte-voce .offerta .offerta-dettaglio .dettaglio-text {
+  width: 268px;
+  height: 191px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.2)), to(rgba(255, 249, 249, 0)));
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 249, 249, 0) 100%);
+  border-radius: 2px;
+  margin-top: 20px;
+  padding-top: 30px;
+}
+
+.offerte-voce .offerta .offerta-dettaglio .dettaglio-text .dettaglio-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  color: white;
+  padding: 0 10px;
+}
+
+.offerte-voce .offerta .offerta-dettaglio .dettaglio-text .dettaglio-title p {
+  font-family: "Lato", sans-serif;
+  font-size: 2.2rem;
+}
+
+.offerte-voce .offerta .offerta-dettaglio .dettaglio-text .text-descr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 0 10px;
+}
+
+.offerte-voce .offerta .offerta-dettaglio .dettaglio-text .text-descr .giga {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.offerte-voce .offerta .offerta-dettaglio .dettaglio-text .text-descr .giga h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 4rem;
+  color: white;
+}
+
+.offerte-voce .offerta .offerta-dettaglio .dettaglio-text .text-descr .giga P {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 3rem;
+  padding-top: 10px;
+  color: white;
+}
+
+.offerte-voce .offerta .offerta-dettaglio .dettaglio-text .text-descr .ilimitati {
+  height: 32.17px;
+  margin-top: 10px;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+  padding: 0 10px;
+  border-radius: 1px;
+}
+
+.offerte-voce .offerta .offerta-dettaglio .dettaglio-text .text-descr .ilimitati h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 3rem;
+  color: white;
+}
+
+.offerte-voce .offerta .offerta-dettaglio .dettaglio-text .text-descr .prezzo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+}
+
+.offerte-voce .offerta .offerta-dettaglio .dettaglio-text .text-descr .prezzo h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 4rem;
+}
+
+.offerte-voce .offerta .offerta-dettaglio .dettaglio-text .text-descr .prezzo P {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 3rem;
+}
+
+.offerte-voce .offerta .offerta-dettaglio .dettaglio-text .incluso-5g {
+  font-family: "Lato", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 500;
+  text-align: center;
+  color: white;
+}
+
+.offerte-voce .offerta .offerta-dettaglio .dettaglio-text .scopri {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 10px;
+}
+
+.offerte-voce .offerta .offerta-dettaglio .dettaglio-text .scopri a {
+  color: black;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  text-decoration: none;
+  background-color: white;
+  padding: 4px 40px 4px 40px;
+  border-radius: 2px;
+  height: 30px;
+  text-align: center;
+}
+
+.offerte-voce .offerta .offerta-dettaglio .dettaglio-text .scopri p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.offerte-voce .offerta .offerta-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 296px;
+  max-width: 30%;
+}
+
+.offerte-voce .offerta .offerta-icon .icon-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 40px;
+  width: auto;
+}
+
+.offerte-voce .offerta .offerta-icon .icon-1 .internet,
+.offerte-voce .offerta .offerta-icon .icon-1 .mobili {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: auto;
+  text-align: center;
+}
+
+.offerte-voce .offerta .offerta-icon .icon-1 .internet p,
+.offerte-voce .offerta .offerta-icon .icon-1 .mobili p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+}
+
+.offerte-voce .offerta .offerta-icon .icon-1 .internet .cicle,
+.offerte-voce .offerta .offerta-icon .icon-1 .mobili .cicle {
+  background: #FAFAFA;
+  border: 5px solid #FAFAFA;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0px 2px 4px #E6E6E6;
+          box-shadow: 0px 2px 4px #E6E6E6;
+  width: 80px;
+  height: 80px;
+  border-radius: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 10px;
+}
+
+.offerte-voce .offerta .offerta-icon .icon-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.offerte-voce .offerta .offerta-icon .icon-2 .europa,
+.offerte-voce .offerta .offerta-icon .icon-2 .internazionale {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  width: auto;
+  text-align: center;
+}
+
+.offerte-voce .offerta .offerta-icon .icon-2 .europa p,
+.offerte-voce .offerta .offerta-icon .icon-2 .internazionale p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+}
+
+.offerte-voce .offerta .offerta-icon .icon-2 .europa .cicle,
+.offerte-voce .offerta .offerta-icon .icon-2 .internazionale .cicle {
+  background: #FAFAFA;
+  border: 5px solid #FAFAFA;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0px 2px 4px #E6E6E6;
+          box-shadow: 0px 2px 4px #E6E6E6;
+  width: 80px;
+  height: 80px;
+  border-radius: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 10px;
+}
+
+.footer {
+  margin-top: 60px;
+}
+
+.bacground {
+  background-color: #fff;
+}
+
+nav {
+  border-bottom: 1px solid #C12026;
+}
+
+.container-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /* credit-section  */
+}
+
+.container-section .credit-section {
+  margin-top: 60px;
+  width: 70%;
+  height: auto;
+  position: relative;
+}
+
+.container-section .credit {
+  width: 100%;
+  position: relative;
+}
+
+.container-section .credit .credit-title {
+  max-width: 776px;
+  margin-left: 20px;
+  font-family: "Lato", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 600;
+  border-bottom: 2px solid #C12026;
+  padding-bottom: 2px;
+  margin-bottom: 20px;
+}
+
+.container-section .credit .description {
+  margin: 0px 0px 30px 20px;
+}
+
+.container-section .credit .description h2 {
+  font-family: "Lato", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.container-section .credit .description p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.container-section .credit .credit-base {
+  width: 80%;
+  height: 299px;
+  background-color: #F3F3F3;
+  position: absolute;
+  top: 125px;
+  z-index: -1;
+}
+
+.container-section .credit .credit-info {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0px 0px 0px 20px;
+  position: static;
+  margin: 55px 0px;
+  /* svg giga animation  */
+  /* svg Call animation  */
+  /* svg SMS animation  */
+  /* svg MMS animation  */
+}
+
+.container-section .credit .credit-info .giga,
+.container-section .credit .credit-info .call,
+.container-section .credit .credit-info .sms,
+.container-section .credit .credit-info .mms {
+  width: 354px;
+  height: 120px;
+  background-color: #F9F9F9;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.13);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.13);
+  margin-left: 68px;
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 5px;
+  padding: 0px 10px;
+}
+
+.container-section .credit .credit-info .giga:nth-child(1),
+.container-section .credit .credit-info .call:nth-child(1),
+.container-section .credit .credit-info .sms:nth-child(1),
+.container-section .credit .credit-info .mms:nth-child(1) {
+  margin-left: 0px;
+}
+
+.container-section .credit .credit-info .giga:nth-child(3),
+.container-section .credit .credit-info .call:nth-child(3),
+.container-section .credit .credit-info .sms:nth-child(3),
+.container-section .credit .credit-info .mms:nth-child(3) {
+  margin-left: 0px;
+}
+
+.container-section .credit .credit-info .giga h3,
+.container-section .credit .credit-info .call h3,
+.container-section .credit .credit-info .sms h3,
+.container-section .credit .credit-info .mms h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.container-section .credit .credit-info .giga p,
+.container-section .credit .credit-info .call p,
+.container-section .credit .credit-info .sms p,
+.container-section .credit .credit-info .mms p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.container-section .credit .credit-info .giga .info-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  margin-right: 20px;
+}
+
+.container-section .credit .credit-info .giga .info-icon svg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100px;
+  height: 100px;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+.container-section .credit .credit-info .giga .info-icon svg circle {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  right: 20px;
+  fill: #F9F9F9;
+  stroke-width: 9px;
+  stroke: #fff;
+  -webkit-transform: translate(-20px, -20px);
+          transform: translate(-20px, -20px);
+  stroke-dasharray: 350;
+  stroke-dashoffset: 350;
+}
+
+.container-section .credit .credit-info .giga .info-icon svg circle:nth-child(1) {
+  stroke-dashoffset: 0;
+  stroke: #fff;
+  stroke-width: 10px !important;
+}
+
+.container-section .credit .credit-info .giga .info-icon svg circle:nth-child(2) {
+  stroke-dashoffset: 440;
+  stroke: #C12026;
+  stroke-linecap: butt;
+  stroke-width: 7px;
+}
+
+.container-section .credit .credit-info .giga .info-icon h2 {
+  position: absolute;
+  left: 18px;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  color: #C12026;
+  font-size: 3rem;
+  padding: 0px;
+  letter-spacing: 0rem;
+}
+
+.container-section .credit .credit-info .giga .info-icon h2 span {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-left: -3px;
+}
+
+.container-section .credit .credit-info .call .info-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  margin-right: 20px;
+}
+
+.container-section .credit .credit-info .call .info-icon svg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100px;
+  height: 100px;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+.container-section .credit .credit-info .call .info-icon svg circle {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  right: 20px;
+  fill: #F9F9F9;
+  stroke-width: 9px;
+  stroke: #fff;
+  -webkit-transform: translate(-20px, -20px);
+          transform: translate(-20px, -20px);
+  stroke-dashoffset: 350;
+}
+
+.container-section .credit .credit-info .call .info-icon img {
+  position: absolute;
+  left: 29px;
+  top: 31px;
+}
+
+.container-section .credit .credit-info .sms .info-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  margin-right: 20px;
+}
+
+.container-section .credit .credit-info .sms .info-icon svg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100px;
+  height: 100px;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+.container-section .credit .credit-info .sms .info-icon svg circle {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  right: 20px;
+  fill: #F9F9F9;
+  stroke-width: 9px;
+  stroke: white;
+  -webkit-transform: translate(-20px, -20px);
+          transform: translate(-20px, -20px);
+  stroke-dasharray: 350;
+  stroke-dashoffset: 350;
+}
+
+.container-section .credit .credit-info .sms .info-icon svg circle:nth-child(1) {
+  stroke-dashoffset: 0;
+  stroke: #fff;
+  stroke-width: 10px !important;
+}
+
+.container-section .credit .credit-info .sms .info-icon svg circle:nth-child(2) {
+  stroke-dashoffset: 440;
+  stroke: #C12026;
+  stroke-linecap: butt;
+  stroke-width: 7px;
+}
+
+.container-section .credit .credit-info .sms .info-icon img {
+  position: absolute;
+  left: 27px;
+  top: 35px;
+}
+
+.container-section .credit .credit-info .mms .info-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  margin-right: 20px;
+}
+
+.container-section .credit .credit-info .mms .info-icon svg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100px;
+  height: 100px;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+.container-section .credit .credit-info .mms .info-icon svg circle {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  right: 20px;
+  fill: #F9F9F9;
+  stroke-width: 9px;
+  stroke: white;
+  -webkit-transform: translate(-20px, -20px);
+          transform: translate(-20px, -20px);
+}
+
+.container-section .credit .credit-info .mms .info-icon img {
+  position: absolute;
+  left: 31px;
+  top: 34px;
+}
+
+.container-section .btn-credit {
+  background-color: #C12026;
+  color: white;
+  bottom: -12%;
+  padding: 9px 0px;
+  text-align: center center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 186px;
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin: 0px auto;
+  text-decoration: none;
+}
+
+.container-section .btn-credit img {
+  margin: 0px;
+  padding: 0px;
+  margin-right: 6px;
+}
+
+.container-section .detail {
+  margin-left: 30px;
+  width: 180px;
+  margin: 60px 20px;
+  margin-top: 40px;
+}
+
+.container-section .detail a {
+  width: 181px;
+  padding: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-self: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #000;
+  text-decoration: none;
+  border: 1px solid #C12026;
+}
+
+.container-section .detail a img {
+  margin-right: 5px;
+}
+
+/* user section  */
+.user-section {
+  background-color: #F9F9F9;
+  width: 30%;
+  -webkit-transition: right 0.8s ease;
+  transition: right 0.8s ease;
+  -webkit-filter: drop-shadow(-2px 4px 1px rgba(0, 0, 0, 0.1));
+          filter: drop-shadow(-2px 4px 1px rgba(0, 0, 0, 0.1));
+}
+
+.user-section .user {
+  padding: 0px;
+  width: 100%;
+  /* user-menu */
+}
+
+.user-section .user .user-info {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 0px;
+  border-bottom: 2px solid #C12026;
+}
+
+.user-section .user .user-info img {
+  margin: 0px 15px;
+}
+
+.user-section .user .user-info .user-secription {
+  width: 200px;
+}
+
+.user-section .user .user-info .user-secription h3 {
+  font-family: "Lato", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 2px;
+}
+
+.user-section .user .user-info .user-secription h4,
+.user-section .user .user-info .user-secription p,
+.user-section .user .user-info .user-secription a {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #000;
+}
+
+.user-section .user .user-info .user-secription a {
+  text-decoration: none;
+  font-size: 1.4rem;
+}
+
+.user-section .user .user-info .user-burger {
+  width: 33px;
+  height: 41px;
+  border-radius: 10px 0px 0px 10px;
+  background-color: #F9F9F9;
+  -webkit-filter: drop-shadow(-2px 0px 4px rgba(0, 0, 0, 0.1));
+          filter: drop-shadow(-2px 0px 4px rgba(0, 0, 0, 0.1));
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  left: -33.4px;
+  display: none;
+  cursor: pointer;
+}
+
+.user-section .user .user-info .user-burger img {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.user-section .user .user-menu .menu-link {
+  padding: 0px 0px 20px 2px;
+  height: auto;
+  width: 100%;
+}
+
+.user-section .user .user-menu .menu-link .menu-link-item {
+  background-color: #fff;
+  margin-top: 10px;
+  height: 53px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px 20px;
+  list-style: none;
+}
+
+.user-section .user .user-menu .menu-link .menu-link-item:first-child {
+  margin-top: 4px;
+}
+
+.user-section .user .user-menu .menu-link .menu-link-item a {
+  color: #5A5A5A;
+  font-size: 1.6rem;
+  font-family: "Lato", sans-serif;
+  text-decoration: none;
+}
+
+.user-section .user .user-menu .menu-link .menu-link-item .active {
+  color: #C12026;
+}
+
+.passa-illiad {
+  width: auto;
+  margin-bottom: 60px;
+}
+
+.passa-illiad .title {
+  color: #C12026;
+  font-family: "Lato", sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  border-left: 2px solid #C12026;
+  padding-left: 2px;
+  height: 21px;
+  line-height: 21px;
+  margin-bottom: 20px;
+}
+
+.passa-illiad .motto {
+  font-family: "Lato", sans-serif;
+  font-size: 4rem;
+  font-weight: 400;
+  padding: 0px;
+}
+
+.passa-illiad .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0px;
+  margin-top: 20px;
+}
+
+.passa-illiad .icons .icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 156px;
+  margin-top: 20px;
+  margin-left: 30px;
+  padding: 0px;
+}
+
+.passa-illiad .icons .icon:first-child {
+  margin-left: 0px;
+}
+
+.passa-illiad .icons .icon p {
+  text-align: center;
+  padding: 0px;
+  font-size: 1.6rem;
+}
+
+/* prenota il tuo dispositivo */
+.prenota {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  margin-bottom: 60px;
+}
+
+.prenota .prenota-title {
+  padding: 0px;
+  font-family: "Lato", sans-serif;
+  font-size: 4rem;
+  font-weight: 400px !important;
+  margin-bottom: 40px;
+}
+
+.prenota .banner {
+  background-color: #F3F3F3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 20px;
+}
+
+.prenota .banner h2 {
+  font-family: "Lato", sans-serif;
+  font-size: 4rem;
+  margin-bottom: 20px;
+  font-size: 400;
+}
+
+.prenota .banner .img-banner {
+  margin-left: 5%;
+  padding-left: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.prenota .banner .img-banner .logo-apple {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.prenota .banner .img-banner .logo-apple img {
+  width: 21px;
+  height: 26px;
+  margin-right: 5px;
+}
+
+.prenota .banner .img-banner .logo-apple h3 {
+  font-family: "Lato", sans-serif;
+  font-size: 2.4rem;
+}
+
+.prenota .banner .img-banner .descrizione {
+  margin-top: 10px;
+  margin-bottom: 50px;
+  height: 75px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 28px;
+}
+
+.prenota .banner .img-banner .descrizione p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.8rem;
+}
+
+.prenota .banner .img-banner .descrizione a {
+  color: black;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  text-decoration: none;
+  background-color: white;
+  padding: 4px 40px 4px 40px;
+  border-radius: 2px;
+  height: 30px;
+  text-align: center;
+  background-color: #000;
+  width: 118px;
+  padding: 5px 0px;
+  color: #fff;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.prenota .banner .img-banner .descrizione a:hover {
+  color: black;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  text-decoration: none;
+  background-color: white;
+  padding: 4px 40px 4px 40px;
+  border-radius: 2px;
+  height: 30px;
+  text-align: center;
+  border: 1px solid black;
+  padding: 5px 0px;
+  text-align: center;
+  width: 118px;
+}
+
+.prenota .banner img {
+  width: auto;
+  height: 271px;
+  margin-right: 15%;
+}
+
+.footer {
+  background-color: #343130;
+  min-height: 567px;
+  width: 100%;
+  padding: 40px 20px;
+}
+
+.footer .container {
+  margin: 0px auto;
+  max-width: 1200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0px;
+}
+
+.footer .container .title {
+  text-transform: uppercase;
+  color: #F3F3F3;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.footer .container a {
+  font-family: "Open Sans", sans-serif;
+  color: #F6F6F6;
+  font-size: 1.6rem;
+  font-weight: 300;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.footer .container .tuoi-servizi,
+.footer .container .termini-condizioni,
+.footer .container .iliad {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer .container .sub-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-top: 0.4px solid #f3f3f3ad;
+  padding: 20px 0px 0px 0px;
+  margin-top: 20px;
+}
+
+.footer .container .sub-footer .copy {
+  color: #F6F6F6;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 300;
+  padding: 0px;
+}
+
+.footer .container .sub-footer .social {
+  width: auto;
+  padding: 0px;
+}
+
+.footer .container .sub-footer .social img {
+  margin-left: 20px;
+  padding: 0px;
+}
+
+.footer .container .sub-footer .social img:first-child {
+  margin-left: 0px;
+}
+
+/* @ media 1145px*/
+@media screen and (max-width: 1145px) {
+  .container-section .credit .credit-info .giga,
+  .container-section .credit .credit-info .call,
+  .container-section .credit .credit-info .sms,
+  .container-section .credit .credit-info .mms {
+    margin-left: 20px;
+  }
+  .container-section .credit .credit-info .giga:nth-child(1),
+  .container-section .credit .credit-info .call:nth-child(1),
+  .container-section .credit .credit-info .sms:nth-child(1),
+  .container-section .credit .credit-info .mms:nth-child(1) {
+    margin-left: 0px;
+  }
+  .container-section .credit .credit-info .giga:nth-child(3),
+  .container-section .credit .credit-info .call:nth-child(3),
+  .container-section .credit .credit-info .sms:nth-child(3),
+  .container-section .credit .credit-info .mms:nth-child(3) {
+    margin-left: 0px;
+  }
+}
+
+/* @ media 1069px*/
+@media screen and (max-width: 1069px) {
+  .container-section .credit .credit-info .giga,
+  .container-section .credit .credit-info .call,
+  .container-section .credit .credit-info .sms,
+  .container-section .credit .credit-info .mms {
+    width: 322px;
+  }
+}
+
+/* @media 1024px*/
+@media screen and (max-width: 1024px) {
+  .nav-link {
+    width: 50%;
+  }
+  .area {
+    width: 30%;
+  }
+}
+
+/* @ media 998px*/
+@media screen and (max-width: 998px) {
+  .container-fluid {
+    max-width: none;
+    width: 100%;
+  }
+  .header .cover {
+    background-position-x: center;
+  }
+  /* offerta 70 */
+  .offerte .secttion-title {
+    margin-left: 1%;
+  }
+  .offerte .offerta {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    width: 100%;
+  }
+  .offerte .offerta .offerta-dettaglio {
+    top: 35px;
+    left: 25%;
+  }
+  .offerte .offerta .offerta-icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    max-width: none;
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+  }
+  .offerte .offerta .offerta-icon .icon-1,
+  .offerte .offerta .offerta-icon .icon-2 {
+    width: 100%;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  /* offerta 50 */
+  .offerte-50 {
+    position: relative;
+    -ms-flex-line-pack: end;
+        align-content: flex-end;
+  }
+  .offerte-50 .offerta {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    width: 100%;
+  }
+  .offerte-50 .offerta .offerta-base {
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+  }
+  .offerte-50 .offerta .offerta-dettaglio {
+    top: 35px;
+    right: 24%;
+  }
+  .offerte-50 .offerta .offerta-icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    max-width: none;
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+  }
+  .offerte-50 .offerta .offerta-icon .icon-1,
+  .offerte-50 .offerta .offerta-icon .icon-2 {
+    width: 100%;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  /* offerta 40 */
+  .offerte-40 .secttion-title {
+    margin-left: 1%;
+  }
+  .offerte-40 .offerta {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    width: 100%;
+  }
+  .offerte-40 .offerta .offerta-dettaglio {
+    top: 35px;
+    left: 25%;
+  }
+  .offerte-40 .offerta .offerta-icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    max-width: none;
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+  }
+  .offerte-40 .offerta .offerta-icon .icon-1,
+  .offerte-40 .offerta .offerta-icon .icon-2 {
+    width: 100%;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  /* offerta voce */
+  .offerte-voce {
+    position: relative;
+    -ms-flex-line-pack: end;
+        align-content: flex-end;
+  }
+  .offerte-voce .offerta {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    width: 100%;
+  }
+  .offerte-voce .offerta .offerta-base {
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+  }
+  .offerte-voce .offerta .offerta-dettaglio {
+    top: 35px;
+    right: 24%;
+  }
+  .offerte-voce .offerta .offerta-icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    max-width: none;
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+  }
+  .offerte-voce .offerta .offerta-icon .icon-1,
+  .offerte-voce .offerta .offerta-icon .icon-2 {
+    width: 100%;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  /* passa a iliad  */
+  .passa-illiad .title,
+  .passa-illiad .motto {
+    margin-left: 20px;
+    width: 100%;
+  }
+  .prenota .prenota-title {
+    padding: 0px;
+    font-family: "Lato", sans-serif;
+    font-size: 4rem;
+    font-weight: 400px;
+    margin-bottom: 40px;
+    margin-left: 2%;
+  }
+  .prenota .banner .img-banner {
+    margin-left: -5%;
+  }
+  .prenota .banner img {
+    margin-right: 0%;
+  }
+  .footer {
+    padding: 40px 20px 20px 20px;
+  }
+  .footer .container .sub-footer {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .footer .container .sub-footer .social {
+    width: auto;
+  }
+  /* area personale */
+  .container-section {
+    position: relative;
+    overflow-x: hidden;
+  }
+  .container-section .credit-section {
+    width: 100%;
+  }
+  .container-section .credit-section .credit .credit-title {
+    max-width: 100%;
+  }
+  .container-section .credit-section .credit .credit-base {
+    width: 65%;
+    height: 299px;
+    background-color: #F3F3F3;
+    position: absolute;
+    top: 125px;
+    z-index: -1;
+  }
+  .container-section .credit-section .credit .credit-info .giga,
+  .container-section .credit-section .credit .credit-info .call,
+  .container-section .credit-section .credit .credit-info .sms,
+  .container-section .credit-section .credit .credit-info .mms {
+    width: 354px;
+  }
+  .container-section .user-section {
+    right: -347px;
+    position: absolute;
+    z-index: 30;
+    width: auto;
+  }
+  .container-section .user-section .user-info .user-burger {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+/*@media max 767*/
+@media screen and (max-width: 767px) {
+  .container-fluid {
+    max-width: none;
+    width: 100%;
+  }
+  /* header*/
+  .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .header .nav {
+    height: 50px;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    padding-top: 10px;
+    overflow-y: hidden;
+    position: relative;
+  }
+  .header .nav .nav-link {
+    position: absolute;
+    display: block;
+    top: 100px;
+    background-color: white;
+    width: 100%;
+    margin: 0px;
+    left: 0;
+    height: auto;
+  }
+  .header .nav .nav-link li {
+    margin-left: 0px;
+    padding: 10px  0px  10px 20px;
+    border-bottom: 1px solid white;
+  }
+  .header .nav .nav-link li a {
+    border-bottom: 1px solid #5A5A5A;
+    width: 97%;
+    display: block;
+    padding-bottom: 2px;
+  }
+  .header .nav .nav-link li a:hover {
+    padding-bottom: 2px;
+    border-bottom: 1px solid #5A5A5A;
+    color: #C12026;
+  }
+  .header .nav .nav-link li .active {
+    color: #C12026;
+    border-bottom: 2px solid #C12026;
+    padding: 0px;
+    color: #5A5A5A;
+    border-bottom: 1px solid #5A5A5A;
+    padding-bottom: 2px;
+  }
+  .header .nav .area {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+  }
+  .header .nav .buger {
+    display: block;
+    margin-top: 5px;
+    cursor: pointer;
+  }
+  .header .nav .toggle .line1 {
+    -webkit-transform: rotate(-45deg) translate(0px, 5px);
+            transform: rotate(-45deg) translate(0px, 5px);
+  }
+  .header .nav .toggle .line2 {
+    -webkit-transform: rotate(45deg) translate(0px, -6px);
+            transform: rotate(45deg) translate(0px, -6px);
+  }
+  .header .nav .toggle .line3 {
+    opacity: 0;
+  }
+  .header .cover {
+    width: none;
+    width: 100%;
+    margin: 0 auto;
+    background-position: 71%;
+  }
+  .header .cover .cover-text .cover-text-title {
+    font-size: 2.6rem;
+  }
+  /* offerta 70 */
+  .offerte .offerta {
+    width: 100%;
+  }
+  .offerte .offerta .offerta-base {
+    width: 80%;
+  }
+  .offerte .offerta .offerta-dettaglio {
+    left: 20%;
+  }
+  /* offerta 50*/
+  .offerte-50 {
+    position: relative;
+    -ms-flex-line-pack: end;
+        align-content: flex-end;
+  }
+  .offerte-50 .offerta {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    width: 100%;
+  }
+  .offerte-50 .offerta .offerta-base {
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+    width: 70%;
+  }
+  .offerte-50 .offerta .offerta-dettaglio {
+    top: 35px;
+    right: 18%;
+  }
+  .offerte-50 .offerta .offerta-icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    max-width: 100%;
+    height: auto;
+    margin-top: 40px;
+  }
+  .offerte-50 .offerta .offerta-icon .icon-1,
+  .offerte-50 .offerta .offerta-icon .icon-2 {
+    width: 100%;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  /* offerta 40 */
+  .offerte-40 .offerta {
+    width: 100%;
+  }
+  .offerte-40 .offerta .offerta-base {
+    width: 80%;
+  }
+  .offerte-40 .offerta .offerta-dettaglio {
+    left: 20%;
+  }
+  /* offerta voce*/
+  .offerte-voce {
+    position: relative;
+    -ms-flex-line-pack: end;
+        align-content: flex-end;
+  }
+  .offerte-voce .offerta {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    width: 100%;
+  }
+  .offerte-voce .offerta .offerta-base {
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+    width: 70%;
+  }
+  .offerte-voce .offerta .offerta-dettaglio {
+    top: 35px;
+    right: 18%;
+  }
+  .offerte-voce .offerta .offerta-icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    max-width: 100%;
+    height: auto;
+    margin-top: 40px;
+  }
+  .offerte-voce .offerta .offerta-icon .icon-1,
+  .offerte-voce .offerta .offerta-icon .icon-2 {
+    width: 100%;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  /* tutte le offerte*/
+  .tutte-offerte .offerta {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .tutte-offerte .offerta .base {
+    width: 80%;
+  }
+  .tutte-offerte .offerta .offerte-img {
+    width: 100%;
+    background-size: cover;
+    background-position-x: center;
+    justify-self: flex-start;
+    margin-left: 10px;
+    position: relative;
+    z-index: 20;
+  }
+  /*prenota*/
+  .prenota .prenota-title {
+    padding: 0px;
+    font-family: "Lato", sans-serif;
+    font-size: 4rem;
+    font-weight: 400px;
+    margin-bottom: 40px;
+    margin-left: 2%;
+  }
+  .prenota .banner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .prenota .banner .img-banner {
+    margin-left: -5%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .prenota .banner img {
+    margin-right: 0%;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  /* passa a iliad  */
+  .passa-illiad .title,
+  .passa-illiad .motto {
+    margin-left: 20px;
+    width: 100%;
+  }
+}
+
+/*@media max 747*/
+@media screen and (max-width: 747px) {
+  /* area personale */
+  .container-section .credit-section {
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .container-section .credit-section .credit .credit-base {
+    display: none;
+  }
+  .container-section .credit-section .credit .credit-info {
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 0px;
+  }
+  .container-section .credit-section .credit .credit-info .giga,
+  .container-section .credit-section .credit .credit-info .call,
+  .container-section .credit-section .credit .credit-info .sms,
+  .container-section .credit-section .credit .credit-info .mms {
+    width: 354px;
+    margin-left: 0px;
+  }
+  .container-section .user-section {
+    right: -347px;
+    position: absolute;
+    z-index: 30;
+    width: auto;
+  }
+  .container-section .user-section .user-info .user-burger {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+/*@media max 520*/
+@media screen and (max-width: 576px) {
+  .header .cover {
+    background-position-x: center;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    background-position-x: 76%;
+  }
+  .header .cover .cover-text .cover-text-descr {
+    font-size: 1.8rem;
+  }
+  .header .cover .cover-motto {
+    width: auto;
+    margin-bottom: 40px;
+  }
+  .header .cover .cover-motto .cover-motto-text {
+    font-size: 1.8rem;
+  }
+  /* offerta 70  */
+  .offerte .secttion-title {
+    font-size: 3rem;
+  }
+  .offerte .offerta .offerta-base {
+    width: 90%;
+  }
+  .offerte .offerta .offerta-dettaglio {
+    left: 18%;
+    padding: 0 10px;
+    background-position-x: center;
+  }
+  .offerte .offerta .offerta-icon {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    -ms-flex-line-pack: justify;
+        align-content: space-between;
+  }
+  .offerte .offerta .offerta-icon .icon-1,
+  .offerte .offerta .offerta-icon .icon-2 {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 0 30px;
+  }
+  .offerte .offerta .offerta-icon .icon-1 .mobili,
+  .offerte .offerta .offerta-icon .icon-1 .internet,
+  .offerte .offerta .offerta-icon .icon-2 .mobili,
+  .offerte .offerta .offerta-icon .icon-2 .internet {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .offerte .offerta .offerta-icon .icon-2 {
+    width: 100%;
+    padding: 0px 20px 0px 30px;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  /* offerta 50 */
+  .offerte-50 {
+    position: relative;
+    -ms-flex-line-pack: end;
+        align-content: flex-end;
+  }
+  .offerte-50 .offerta {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    width: 100%;
+  }
+  .offerte-50 .offerta .offerta-base {
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+    width: 80%;
+  }
+  .offerte-50 .offerta .offerta-dettaglio {
+    top: 35px;
+    right: 10%;
+  }
+  .offerte-50 .offerta .offerta-icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-line-pack: justify;
+        align-content: space-between;
+    max-width: 100%;
+    height: auto;
+    margin-top: 40px;
+  }
+  .offerte-50 .offerta .offerta-icon .icon-1 {
+    width: 100%;
+    padding: 0px 30px;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .offerte-50 .offerta .offerta-icon .icon-2 {
+    width: 100%;
+    padding: 0px 30px 0px 20px;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  /* offerta 40  */
+  .offerte-40 .secttion-title {
+    font-size: 3rem;
+  }
+  .offerte-40 .offerta .offerta-base {
+    width: 90%;
+  }
+  .offerte-40 .offerta .offerta-dettaglio {
+    left: 18%;
+    padding: 0 10px;
+    background-position-x: center;
+  }
+  .offerte-40 .offerta .offerta-icon {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    -ms-flex-line-pack: justify;
+        align-content: space-between;
+  }
+  .offerte-40 .offerta .offerta-icon .icon-1,
+  .offerte-40 .offerta .offerta-icon .icon-2 {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 0 30px;
+  }
+  .offerte-40 .offerta .offerta-icon .icon-1 .mobili,
+  .offerte-40 .offerta .offerta-icon .icon-1 .internet,
+  .offerte-40 .offerta .offerta-icon .icon-2 .mobili,
+  .offerte-40 .offerta .offerta-icon .icon-2 .internet {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .offerte-40 .offerta .offerta-icon .icon-2 {
+    width: 100%;
+    padding: 0px 20px 0px 30px;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  /* offerta voce*/
+  .offerte-voce {
+    position: relative;
+    -ms-flex-line-pack: end;
+        align-content: flex-end;
+  }
+  .offerte-voce .offerta {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    width: 100%;
+  }
+  .offerte-voce .offerta .offerta-base {
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+    width: 80%;
+  }
+  .offerte-voce .offerta .offerta-dettaglio {
+    top: 35px;
+    right: 10%;
+  }
+  .offerte-voce .offerta .offerta-icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-line-pack: justify;
+        align-content: space-between;
+    max-width: 100%;
+    height: auto;
+    margin-top: 40px;
+  }
+  .offerte-voce .offerta .offerta-icon .icon-1 {
+    width: 100%;
+    padding: 0px 30px;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .offerte-voce .offerta .offerta-icon .icon-2 {
+    width: 100%;
+    padding: 0px 30px 0px 20px;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  /* tutte le offerte*/
+  .tutte-offerte .offerta {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .tutte-offerte .offerta .base {
+    width: 80%;
+  }
+  .tutte-offerte .offerta .offerte-img {
+    width: 100%;
+    background-size: cover;
+    background-position-x: center;
+    justify-self: flex-start;
+    margin-left: 10px;
+    position: relative;
+    z-index: 20;
+  }
+  .tutte-offerte .offerta .offerte-img .overlay .tittle-offerte {
+    font-size: 2.6rem;
+  }
+  .passa-illiad {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .passa-illiad .title,
+  .passa-illiad .motto {
+    margin-left: 1%;
+  }
+  .passa-illiad .motto {
+    font-size: 2.6rem;
+  }
+  .passa-illiad .icons {
+    width: 100%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .passa-illiad .icons .icon:nth-child(3) {
+    margin-left: 0px;
+  }
+  .passa-illiad .icons .icon:nth-child(2) {
+    margin-left: 0px;
+  }
+  .passa-illiad .icons .icon:nth-child(4) {
+    margin-left: 0px;
+  }
+  .prenota {
+    margin-top: 60px;
+  }
+  .prenota .prenota-title {
+    padding: 0px;
+    font-family: "Lato", sans-serif;
+    font-size: 2.6rem;
+    font-weight: 400;
+    margin-bottom: 40px;
+    margin-left: 5%;
+  }
+  .prenota .banner .img-banner {
+    margin-left: 0px;
+    padding: 0px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  .prenota .banner .img-banner .banner-title {
+    font-size: 2.4rem;
+  }
+  .prenota .banner .img-banner .descrizione p {
+    font-size: 1.8rem;
+  }
+  .prenota .banner img {
+    margin-right: 0%;
+  }
+  /* footer */
+  .footer {
+    padding: 20px 20px;
+  }
+  .footer .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    /*sub footer*/
+  }
+  .footer .container .tuoi-servizi,
+  .footer .container .termini-condizioni,
+  .footer .container .iliad {
+    margin-top: 30px;
+  }
+  .footer .container .sub-footer {
+    text-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .footer .container .sub-footer .social {
+    margin-top: 20px;
+  }
+}
+
+/*@media max 440*/
+@media screen and (max-width: 440px) {
+  .container-fluid {
+    max-width: none;
+    width: 100%;
+  }
+  .offerte .offerta {
+    max-width: none;
+    width: 95%;
+  }
+  .offerte .offerta .offerta-base {
+    width: 90%;
+  }
+  .offerte .offerta .offerta-dettaglio {
+    left: 1%;
+    padding: 0 10px;
+    background-position-x: center;
+    margin-right: 10px;
+  }
+  /*offerta 50 */
+  .offerte-50 {
+    position: relative;
+    -ms-flex-line-pack: end;
+        align-content: flex-end;
+  }
+  .offerte-50 .offerta {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    width: 100%;
+  }
+  .offerte-50 .offerta .offerta-base {
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+    width: 90%;
+  }
+  .offerte-50 .offerta .offerta-dettaglio {
+    top: 35px;
+    right: 1%;
+    width: 395px;
+  }
+  /*offerta 40 */
+  .offerte-40 .offerta {
+    max-width: none;
+    width: 95%;
+  }
+  .offerte-40 .offerta .offerta-base {
+    width: 90%;
+  }
+  .offerte-40 .offerta .offerta-dettaglio {
+    left: 1%;
+    padding: 0 10px;
+    background-position-x: center;
+    margin-right: 10px;
+  }
+  /*offerta voce */
+  .offerte-voce {
+    position: relative;
+    -ms-flex-line-pack: end;
+        align-content: flex-end;
+  }
+  .offerte-voce .offerta {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    width: 100%;
+  }
+  .offerte-voce .offerta .offerta-base {
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+    width: 90%;
+  }
+  .offerte-voce .offerta .offerta-dettaglio {
+    top: 35px;
+    right: 1%;
+    width: 395px;
+  }
+  /* area personale */
+  .container-section .credit-section .credit .credit-info .giga,
+  .container-section .credit-section .credit .credit-info .call,
+  .container-section .credit-section .credit .credit-info .sms,
+  .container-section .credit-section .credit .credit-info .mms {
+    width: 335px;
+    margin-left: 0px;
+  }
+}
+
+/*@media max 375*/
+@media screen and (max-width: 375px) {
+  .container-fluid {
+    max-width: none;
+    width: 100%;
+  }
+  .offerte .offerta {
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+  .offerte .offerta .offerta-base {
+    width: 90%;
+  }
+  .offerte .offerta .offerta-dettaglio {
+    top: 20px;
+    left: 1%;
+    padding: 0 10px;
+    background-position-x: center;
+    width: 357px;
+  }
+  .offerte .offerta .offerta-icon {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    -ms-flex-line-pack: justify;
+        align-content: space-between;
+  }
+  .offerte .offerta .offerta-icon .icon-1,
+  .offerte .offerta .offerta-icon .icon-2 {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 0 10px;
+  }
+  /* offerta 50 */
+  .offerte-50 {
+    position: relative;
+    -ms-flex-line-pack: end;
+        align-content: flex-end;
+  }
+  .offerte-50 .offerta {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    width: 97%;
+  }
+  .offerte-50 .offerta .offerta-base {
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+    width: 90%;
+  }
+  .offerte-50 .offerta .offerta-dettaglio {
+    top: 35px;
+    right: 1%;
+    width: 357px;
+    background-position-x: center;
+  }
+  .offerte-50 .offerta .offerta-icon .icon-1,
+  .offerte-50 .offerta .offerta-icon .icon-2 {
+    padding: 0px 10px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

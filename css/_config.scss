@@ -1,0 +1,41 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
+}
+
+// btn 
+@mixin btn-white() {
+    color: black;
+    font-family: $lato;
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: none;
+    background-color: white;
+    padding: 4px 40px 4px 40px;
+    border-radius: 2px;
+    height: 30px;
+    text-align: center;
+}
+
+// btn-black
+@mixin btn-black() {
+    color: black;
+    font-family: $lato;
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: none;
+    background-color: white;
+    width: 118px;
+    padding: 5px 7px;
+    border-radius: 2px;
+    height: 30px;
+    text-align: center;
+}
+
+// link active
+@mixin link-active {
+    color: #C12026;
+    border-bottom: 2px solid $link-active;
+    padding: 0px;                   
+
+}

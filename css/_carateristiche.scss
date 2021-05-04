@@ -1,0 +1,43 @@
+.passa-illiad {
+    width: auto;
+    margin-bottom: 60px;
+    .title {
+        color: $color-text-s;
+        font-family: $lato;
+        font-size: 2rem;
+        font-weight: 400;
+        border-left: 2px solid $color-text-s;
+        padding-left: 2px;
+        height: 21px;
+        line-height: 21px;
+        margin-bottom: 20px;
+    }
+    .motto {
+        font-family: $lato;
+        font-size: 4rem;
+        font-weight: 400;
+        padding: 0px;
+    }
+    .icons {
+        display: flex;
+        padding: 0px;
+        margin-top: 20px;
+        .icon {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 156px;
+            margin-top: 20px;
+            margin-left: 30px;
+            padding: 0px;
+            &:first-child {
+                margin-left: 0px;
+            }
+            p {
+                text-align: center;
+                padding: 0px;
+                font-size: 1.6rem;
+            }
+        }
+    }
+}
